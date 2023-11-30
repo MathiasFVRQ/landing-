@@ -1,0 +1,72 @@
+@import url(components/banner.css);
+@import url(components/container.css);
+@import url(components/bouton.css);
+@import url(components/avatar.css);
+@import url(components/card.css);
+@import url(components/footer.css);
+
+
+
+
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0.2%;  
+}
+
+h1{
+    color: rgb(219, 219, 219);
+    font-size: 50px;
+    padding: center ;
+}
+
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+      opacity: 0.8;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0%; 
+}
+
+.list li {
+    display:inline;
+    padding: 10px;
+}
+
+.list i {   
+  font-size: 50px;
+  color: #26c942;
+} 
+ 
+.list i:hover {
+  color: rgb(28, 88, 20);
+}
+
+a{
+    border-radius: 10px;
+    background-color:rgb(53, 53, 53) ;
+    color: rgb(53, 53, 53)
+    
+}
+
+a:hover {
+background-color: rgb(53, 53, 53);
+} 
